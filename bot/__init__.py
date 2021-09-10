@@ -57,32 +57,7 @@ BAN_COMMAND = get_config("BAN_COMMAND", "ban")
 #
 UN_BAN_COMMAND = get_config("UN_BAN_COMMAND", "unban")
 # start command
-START_COMMAND = get_config("START_COMMAND", "start")
-# default message in-case of None types
-DEFAULT_START_TEXT = (
-    
-)
-# /start message when other users start your bot
-START_OTHER_USERS_TEXT = int(get_config(
-    "START_OTHER_USERS_TEXT",
-    0
-))
-# check online status of your bot
-ONLINE_CHECK_START_TEXT = get_config(
-    "ONLINE_CHECK_START_TEXT",
-    (
-        "Sistem berfungsi <b>master</b>\n"
-        "Jangan lupa join [Channel Support](https://t.me/Vckyouuu)"
-    )
-)
-# message to indicate,
-# if any message was deleted by the user
-# so as to prevent replying to that message
-DELETED_MESSAGES_NOTIFICATION_TEXT = get_config(
-    "DELETED_MESSAGES_NOTIFICATION_TEXT",
-    (
-        "
-)
+
 # IDEKWBYRW
 DERP_USER_S_TEXT = get_config(
     "DERP_USER_S_TEXT",
